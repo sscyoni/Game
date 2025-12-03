@@ -1,0 +1,9 @@
+filename = input("파일명을 입력하세요: ").strip()
+search = input("문자열을 입력하세요")
+with open(filename, "r", encoding="utf-8") as infile:
+        words = infile.read().split()  
+word_to_find = search
+count = words.count(word_to_find)
+
+print(f"'{word_to_find}' 단어의 등장 횟수:", count)
+
