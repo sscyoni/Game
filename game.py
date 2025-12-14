@@ -4,7 +4,7 @@ import random
 class AppleGame:
     def __init__(self, root):
         self.root = root 
-        root.title("🍎 사과 숫자 합 게임 (시간어택)") 
+        root.title("🍎 사과 숫자 합 게임") 
         # --- 게임 변수 초기화 ---
         self.MAX_APPLES = 20          
         self.initial_game_time = 60   
